@@ -1,0 +1,2 @@
+# nixos
+Jenny's nixos
