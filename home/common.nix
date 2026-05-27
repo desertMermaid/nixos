@@ -1,6 +1,7 @@
 {
   pkgs,
   config,
+  inputs,
   ...
 }: {
   imports = [
@@ -32,6 +33,8 @@
     btop
 
     lsof
+
+    inputs.b123d-server.packages.${pkgs.stdenv.hostPlatform.system}.default
   ];
 
   programs.bash.enable = true;

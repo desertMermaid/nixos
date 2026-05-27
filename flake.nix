@@ -20,6 +20,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.home-manager.follows = "nixpkgs";
     };
+
+    b123d-server = {
+      url = "github:dispersia/build123d_server";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs @ {
