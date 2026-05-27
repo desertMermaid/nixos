@@ -5,7 +5,8 @@
 }: {
   imports = [
     ./claude
-    ./neovim
     ./git
+    ./neovim
+    ./postman
   ];
 }
