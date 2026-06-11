@@ -4,7 +4,7 @@
     enable = true;
     settings = {
       user = {
-        name = "Jenny Housh";
+        name = "Jenny Cruz";
         email = "jennifer.ylee01@gmail.com";
       };
       push = {
