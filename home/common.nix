@@ -34,8 +34,6 @@
 
     lsof
     
-    python313
-
     inputs.b123d-server.packages.${pkgs.stdenv.hostPlatform.system}.default
   ];
 
