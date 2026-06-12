@@ -20,7 +20,7 @@ users.users.${username} = {
 
 hardware.graphics = {
   enable = true;
-  enablie32Bit = true;
+  enable32Bit = true;
 };
 
 environment.sessionVariables = {
