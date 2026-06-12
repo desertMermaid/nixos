@@ -23,7 +23,7 @@ hardware.graphics = {
   enablie32Bit = true;
 };
 
-environment.sessionVaribale = {
+environment.sessionVariables = {
   GMB_BACKEND = "nvidia-drm";
   __GLX_VENDOR_LIBRARY_NAME = "nvidia";
 };
