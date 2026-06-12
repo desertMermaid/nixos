@@ -4,7 +4,7 @@
   hostName,
   username,
 ...
-};
+}:
 
 {
 users.users.${username} = {
