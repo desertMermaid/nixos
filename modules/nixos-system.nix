@@ -51,7 +51,7 @@ nix.gc = {
 
 nixpkgs.config.allowUnfree = true;
 
-il8n.defaultLocale = "en_US.UTF-8";
+i18n.defaultLocale = "en_US.UTF-8";
 
 fonts = {
   packages = with pkgs; [
