@@ -8,7 +8,7 @@
 
 {
 users.users.${username} = {
-  isNormalUser = ture;
+  isNormalUser = true;
   description = username;
   extraGroups = [
     "wheel"
