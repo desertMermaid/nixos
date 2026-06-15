@@ -7,6 +7,8 @@
 }:
 
 {
+  programs.nix-ld.enable = true;
+
 users.users.${username} = {
   isNormalUser = true;
   description = username;

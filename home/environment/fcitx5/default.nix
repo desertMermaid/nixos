@@ -5,11 +5,11 @@
     type = "fcitx5";
     fcitx5 = {
       addons = with pkgs; [
-        fctix5-mozc
-        fctix5-hangul
+        fcitx5-mozc
+        fcitx5-hangul
         fcitx5-chewing
 
-        fctix5-gtk
+        fcitx5-gtk
         kdePackages.fcitx5-qt
         qt6Packages.fcitx5-configtool
       ];
@@ -18,7 +18,7 @@
           GroupOrder."0" = "Default";
           "Groups/0" = {
             Name = "Default";
-            "Default Layout" = "us"
+            "Default Layout" = "us";
             DefaultIM = "mozc";
           };
           "Groups/0/Items/0".Name = "keyboard-us";

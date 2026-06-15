@@ -12,7 +12,7 @@
 
   programs.plasma = {
     enable = true;
-    workspae = {
+    workspace = {
       lookAndFeel = "org.kde.breeze.desktop";
       theme = "breeze-dark";
       colorScheme = "BreezeDark";
