@@ -5,6 +5,7 @@
 }: {
   imports = [
     ./carapace
+    ./direnv
     ./nushell
     ./starship
   ];
