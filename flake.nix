@@ -99,7 +99,7 @@
 
   in
   {
-    nixosConfiguration = {
+    nixosConfigurations = {
       desktop = mkNixosHost "desktop" "dm";
     };
 

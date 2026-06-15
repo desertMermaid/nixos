@@ -58,7 +58,7 @@ fonts = {
     material-design-icons
 
     noto-fonts
-    noto-fonts-djk-sans
+    noto-fonts-cjk-sans
     noto-fonts-color-emoji
 
     nerd-fonts.symbols-only

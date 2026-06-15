@@ -54,5 +54,5 @@ if (sys host | get name) == "Darwin" {
         $env.TERMINFO_DIRS = ($terminfo_dirs | str join ":")
     }
 }
-        $env.GITHUB_TOKEN = (gh auth token)
+#$env.GITHUB_TOKEN = (gh auth token)
 
