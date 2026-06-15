@@ -33,7 +33,9 @@
     btop
 
     lsof
-    
+
+    firefox-bin
+
     inputs.b123d-server.packages.${pkgs.stdenv.hostPlatform.system}.default
   ];
 

@@ -18,9 +18,6 @@
     efi.canTouchEfiVariables = true;
   };
 
-  boot.initrd.systemd.enable = true;
-  boot.initrd.availableKernelModules = [ "nvme" "btrfs" ];
-
   boot.kernelPackages = pkgs.linuxPackages_latest;
 #  boot.kernelParams = [ "nvidia-drm.modeset=1" ];
 
